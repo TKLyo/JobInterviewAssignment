@@ -1,0 +1,33 @@
+Program Start
+Start up Server at http://127.0.0.1:8081/
+Initialise required variable http = http
+Create Server
+Declaring variable header = Welcome to the Translator 1.0 by Lionel Yap
+Declaring variable info = This is a translator that was made to help translate English to Indonesian. Please fill in the blacks below.
+Declaring required variable translateheader
+Declaring required variable translateinfo
+Initialiase console.translatedlog = console.log
+Initialiase noinputs = 0
+Output --------------------------------------------------------- to console.log 
+Output header to console.log 
+Output translateheader to console.log
+Output --------------------------------------------------------- to console.log 
+Output info to console.log
+Output translateinfo to console.log
+Output --------------------------------------------------------- to console.log 
+Input any value to console.log
+Inputted value gets saved into $translatedlog
+Adding 1 to noinputs
+If $translatedlog contains any inputs
+    Subtracting 1 from noinputs
+    If $translatedlog is in English
+        If noinputs is less than 1
+            If $translatedlog contains spaces
+                If $translatedlog characters are greater than 160
+                    Output THE GIVEN SENTENCE EXCEEDED THE CHARACTER LIMIT to console.log
+                Else output translated text to console.log
+            Else output PLEASE ADD SPACES to console.log
+        Else output TOO MANY INOUTS to console.log
+    Else output THE GIVEN SENTENCE WAS NOT IN ENGLISH
+Else Output NO INPUTS to console.log
+Output --------------------------------------------------------- to console.log 
